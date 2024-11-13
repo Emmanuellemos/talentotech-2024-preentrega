@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url("/img/reddwarf.webp");
+    
+}
+h1{
+    font-size: 4em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red
+    
+}
+
+h2
+{
+    color: white;
+}
+main{
+    color: white;
+    margin: 15px 0;
+	text-align: center;
+    
+    
+}    
+    
+#titulo{
+    color: red;
+    font-size: 4em;
+    text-align: center;
+	font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+
+}
+
+footer
+{
+    color: white;
+    margin: 15px 0;
+	text-align: center;
+    
+    position: static;
+}    
+
+.separacion{
+    color: white;
+}
+header{
+    top: 0;
+    position: fixed;
+   
+}
+
+#lista1 li {
+    display:inline;
+    font-size: .875rem;
+    font-weight: 400;
+    margin-right: 1px;
+    
+    
+}
+.botones{
+    text-decoration: none;
+    color: beige;
+    position: static;
+    
+}
+
+
+
+#main-header{
+    background-color: gray;
+}
+
+
+@media (min-width: 600px) {
+    main{
+        flex-wrap: nowrap;
+    }
+ 
+}
+div{
+    flex-basis: 33%;
+    height: 200px;
+    margin-bottom: 0.5rem;
+}
+#descripcion{
+    color: red;
+    margin: 15px 0;
+	text-align: center;
+    position: inherit;
+    
+}
+p{
+    margin: 30px;
+}
