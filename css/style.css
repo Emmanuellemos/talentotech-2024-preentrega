@@ -9,20 +9,6 @@ body {
     background-image: url("../img/reddwarf.webp");
     
 }
-
-
-h2
-{
-    color: rgb(202, 44, 44);
-}
-main{
-    color: white;
-    margin: 15px 0;
-	text-align: center;
-    
-    
-}    
-    
 h1{
     color: red;
     text-shadow: dimgray;
@@ -33,7 +19,25 @@ h1{
     
 
 }
-
+h2
+{
+    color: rgb(202, 44, 44);
+}
+main{
+    color: white;
+    margin: 15px 0;
+	text-align: center;
+    
+    
+}
+header{
+    top: 0;
+    position: fixed;
+   
+}
+#main-header{
+    background-color: gray;
+}
 footer
 {
     color: white;
@@ -41,20 +45,9 @@ footer
 	text-align: center;
     position: fixed;
 }    
-
-.color{
-    background-color: blueviolet;
-    font-size: 25px; 
-}
 .separacion{
     color: white;
 }
-header{
-    top: 0;
-    position: fixed;
-   
-}
-
 #lista1 li {
     display:inline;
     font-size: .875rem;
@@ -69,14 +62,6 @@ header{
     position: static;
     
 }
-
-
-
-#main-header{
-    background-color: gray;
-}
-
-
 @media (min-width: 600px) {
     main{
         flex-wrap: wrap;
